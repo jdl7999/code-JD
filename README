@@ -7,3 +7,10 @@ A third change made on my PC.  Merely making a change on the local disk doesn't 
 If I ran:
 
 git status -s  I would see the file had an 'AM' status showing it has been modified on disk since it was last added.  If I were to commit the snapshot right now I'd record the version of the file when last added not the one with this version.  git does not assume this version on disk is something I want to include in the snapshot.  I must tell it that with 'git add'
+
+Question I haven't resolved since my third commit... I can push a change up to github via a git gui (I'm liking gitg and that's what I've used mostly) but I don't know how to do this from the command line yet.  I ALSO noticed I've identifed myself as "JD Lowe" locally but the commits made on the website have my userid jdl7999.  Not sure if this is good or bad to be different but at least for now it's a quick way to tell where the commit originated from.
+
+It looks like I'd use 'git push origin master'  I'm going to try that.  It seems that push's don't have to correspond to a commit.  I guess I'll find out in a sec...
+
+WELL that didn't seem to work...  I'll try it from the GUI.  Hmmm gitg didn't have all the coolness I needed.  Maybe it's was git-cola that I was finding so easy to work with.  I'm trying to use it to update my local content in github!
+
