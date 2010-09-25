@@ -14,3 +14,4 @@ It looks like I'd use 'git push origin master'  I'm going to try that.  It seems
 
 WELL that didn't seem to work...  I'll try it from the GUI.  Hmmm gitg didn't have all the coolness I needed.  Maybe it's was git-cola that I was finding so easy to work with.  I'm trying to use it to update my local content in github!
 
+Not saying git-cola wouldn't have worked to update the content in the remote location but I ended up using the regular git-gui app.  I did a push with it which seems the same as my failed attempt to do this a little while ago from the command line with 'git push origin master'  I probably missed it "by this much as" as agent 86 would say.  I'm going to try doing it from the command line again!
