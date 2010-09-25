@@ -1,3 +1,9 @@
 This is a test...  A simple change to the initially null README doc.
 
 change 2 -- A second change made on github.
+
+A third change made on my PC.  Merely making a change on the local disk doesn't make it something to be picked up as a versioned snapshot.
+
+If I ran:
+
+git status -s  I would see the file had an 'AM' status showing it has been modified on disk since it was last added.  If I were to commit the snapshot right now I'd record the version of the file when last added not the one with this version.  git does not assume this version on disk is something I want to include in the snapshot.  I must tell it that with 'git add'
